@@ -1,0 +1,46 @@
+[
+  {
+    "title": {
+      "en": "Construction",
+      "ar": "الإنشاءات"
+    },
+    "description": {
+      "en": "Civil and structural works, from foundation to handover.",
+      "ar": "أعمال مدنية وإنشائية، من الأساسات حتى التسليم."
+    },
+    "url": "expertise.html"
+  },
+  {
+    "title": {
+      "en": "Fit-out & finishing",
+      "ar": "التشطيبات"
+    },
+    "description": {
+      "en": "Carefully coordinated interiors and architectural details.",
+      "ar": "مساحات داخلية وتفاصيل معمارية بتنسيق دقيق."
+    },
+    "url": "expertise.html"
+  },
+  {
+    "title": {
+      "en": "MEP & systems",
+      "ar": "الأنظمة الكهروميكانيكية"
+    },
+    "description": {
+      "en": "Electrical, mechanical and building systems working together.",
+      "ar": "حلول الكهرباء والميكانيكا وخدمات المباني المتكاملة."
+    },
+    "url": "expertise.html"
+  },
+  {
+    "title": {
+      "en": "Project delivery",
+      "ar": "تسليم المشاريع"
+    },
+    "description": {
+      "en": "Planning, site control and quality across every phase.",
+      "ar": "تخطيط ورقابة ميدانية وجودة في جميع المراحل."
+    },
+    "url": "expertise.html"
+  }
+]

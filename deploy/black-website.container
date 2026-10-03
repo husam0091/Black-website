@@ -1,0 +1,19 @@
+[Unit]
+Description=Black C construction website
+
+[Container]
+Image=localhost/black-website:latest
+ContainerName=black-website
+PublishPort=8080:8080
+ReadOnly=true
+Tmpfs=/tmp:rw,size=64m
+NoNewPrivileges=true
+DropCapability=all
+
+[Service]
+Restart=always
+RestartSec=5
+TimeoutStartSec=120
+
+[Install]
+WantedBy=default.target

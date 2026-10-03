@@ -1,0 +1,162 @@
+[
+  {
+    "id": "albani",
+    "title": {
+      "en": "Al-Bani Complex",
+      "ar": "مجمع الباني التجاري"
+    },
+    "url": "project-albani.html",
+    "city": "Riyadh, Saudi Arabia",
+    "category": "Commercial",
+    "area": "5,540 m²",
+    "duration": "18 months",
+    "cover": "assets/albani-photo.jpg",
+    "gallery": [
+      "assets/albani-photo.jpg"
+    ],
+    "description": {
+      "en": "Turnkey construction; Civil & fit-out works; Interior & exterior works; MEP works",
+      "ar": "تنفيذ متكامل للمشروع؛ الأعمال المدنية والتشطيبات؛ الأعمال الداخلية والخارجية؛ الأعمال الكهربائية والميكانيكية والصحية"
+    }
+  },
+  {
+    "id": "dforma",
+    "title": {
+      "en": "D-FORMAx Studio",
+      "ar": "استوديو D-FORMAx"
+    },
+    "url": "project-dforma.html",
+    "city": "Riyadh, Saudi Arabia",
+    "category": "Commercial",
+    "area": "310 m²",
+    "duration": "3 months",
+    "cover": "assets/dforma-photo.jpg",
+    "gallery": [
+      "assets/dforma-photo.jpg"
+    ],
+    "description": {
+      "en": "Turnkey fit-out; Interior & exterior works; MEP works",
+      "ar": "تشطيبات متكاملة؛ الأعمال الداخلية والخارجية؛ الأعمال الكهربائية والميكانيكية والصحية"
+    }
+  },
+  {
+    "id": "hashem",
+    "title": {
+      "en": "Hashem Al Safi Villa",
+      "ar": "فيلا هاشم الصافي"
+    },
+    "url": "project-hashem.html",
+    "city": "Riyadh, Saudi Arabia",
+    "category": "Residential",
+    "area": "394 m²",
+    "duration": "10 months",
+    "cover": "assets/hashem-photo.jpg",
+    "gallery": [
+      "assets/hashem-photo.jpg"
+    ],
+    "description": {
+      "en": "Turnkey construction; Civil works; Architectural & fit-out works; Interior & exterior works; MEP works",
+      "ar": "تنفيذ متكامل للمشروع؛ الأعمال المدنية؛ الأعمال المعمارية والتشطيبات؛ الأعمال الداخلية والخارجية؛ الأعمال الكهربائية والميكانيكية والصحية"
+    }
+  },
+  {
+    "id": "nbc",
+    "title": {
+      "en": "NBC New Office Building",
+      "ar": "مبنى مكاتب NBC الجديد"
+    },
+    "url": "project-nbc.html",
+    "city": "Riyadh, Saudi Arabia",
+    "category": "Commercial",
+    "area": "1,134 m²",
+    "duration": "6 months",
+    "cover": "assets/nbc-photo.jpg",
+    "gallery": [
+      "assets/nbc-photo.jpg"
+    ],
+    "description": {
+      "en": "Turnkey construction; Civil & structural works; Architectural & fit-out works; Interior & exterior works; MEP works",
+      "ar": "تنفيذ متكامل للمشروع؛ الأعمال المدنية والإنشائية؛ الأعمال المعمارية والتشطيبات؛ الأعمال الداخلية والخارجية؛ الأعمال الكهربائية والميكانيكية والصحية"
+    }
+  },
+  {
+    "id": "neutral",
+    "title": {
+      "en": "Water Factory — NEUTRAL",
+      "ar": "مصنع مياه NEUTRAL"
+    },
+    "url": "project-neutral.html",
+    "city": "Al-Qassim, Saudi Arabia",
+    "category": "Industrial",
+    "area": "6,800 m²",
+    "duration": "10 months",
+    "cover": "assets/neutral-photo.jpg",
+    "gallery": [
+      "assets/neutral-photo.jpg"
+    ],
+    "description": {
+      "en": "Civil works; Interior & exterior fit-out; Excavation works",
+      "ar": "الأعمال المدنية؛ تشطيبات داخلية وخارجية؛ أعمال الحفر"
+    }
+  },
+  {
+    "id": "quraishi",
+    "title": {
+      "en": "Private Villa — Al-Quraishi",
+      "ar": "فيلا القريشي الخاصة"
+    },
+    "url": "project-quraishi.html",
+    "city": "Riyadh, Saudi Arabia",
+    "category": "Residential",
+    "area": "2,500 m²",
+    "duration": "18 months",
+    "cover": "assets/quraishi-photo.jpg",
+    "gallery": [
+      "assets/quraishi-photo.jpg"
+    ],
+    "description": {
+      "en": "Turnkey construction; Civil & fit-out works; Interior & exterior works; MEP works",
+      "ar": "تنفيذ متكامل للمشروع؛ الأعمال المدنية والتشطيبات؛ الأعمال الداخلية والخارجية؛ الأعمال الكهربائية والميكانيكية والصحية"
+    }
+  },
+  {
+    "id": "resthouse",
+    "title": {
+      "en": "Private Rest House",
+      "ar": "استراحة خاصة"
+    },
+    "url": "project-resthouse.html",
+    "city": "Riyadh, Saudi Arabia",
+    "category": "Residential",
+    "area": "2,100 m²",
+    "duration": "10 months",
+    "cover": "assets/resthouse-photo.jpg",
+    "gallery": [
+      "assets/resthouse-photo.jpg"
+    ],
+    "description": {
+      "en": "Finishing work; Gypsum & painting",
+      "ar": "أعمال التشطيب؛ أعمال الجبس والدهانات"
+    }
+  },
+  {
+    "id": "tabbaa",
+    "title": {
+      "en": "Private Villa — Al-Tabbaa",
+      "ar": "فيلا الطبع الخاصة"
+    },
+    "url": "project-tabbaa.html",
+    "city": "Riyadh, Saudi Arabia",
+    "category": "Residential",
+    "area": "1,830 m²",
+    "duration": "20 months",
+    "cover": "assets/tabbaa-photo.jpg",
+    "gallery": [
+      "assets/tabbaa-photo.jpg"
+    ],
+    "description": {
+      "en": "Turnkey construction; Civil & fit-out works; Interior & exterior works; MEP works",
+      "ar": "تنفيذ متكامل للمشروع؛ الأعمال المدنية والتشطيبات؛ الأعمال الداخلية والخارجية؛ الأعمال الكهربائية والميكانيكية والصحية"
+    }
+  }
+]
