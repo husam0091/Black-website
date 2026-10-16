@@ -10,7 +10,7 @@ echo 'English, Arabic, clean URLs, animation assets and 404 passed.'
 
 # Confirm HTML is served as a document rather than plain text or a download.
 for route in /company /company.html /ar/company /ar/company.html; do
-  headers=$(curl --fail --silent --head "$base$route")
+  headers=$(curl --location --fail --silent --head "$base$route")
   printf '%s\n' "$headers" | tr -d '\r' | grep -Eiq '^content-type: text/html([;[:space:]]|$)'
   printf '%s\n' "$headers" | grep -Eiq '^content-security-policy:'
   printf '%s\n' "$headers" | grep -Eiq '^x-content-type-options: nosniff'
