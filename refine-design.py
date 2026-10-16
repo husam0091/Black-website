@@ -22,4 +22,6 @@ for p in root.rglob('*.html'):
    s=s.replace('class="signature-links"','class="signature-links signature-gallery"',1)
    images=iter(['nbc-photo.jpg','dforma-photo.jpg','hashem-photo.jpg'])
    s=re.sub(r'(<a href="collections.html#(?:nova|aura|velare)">)(<strong>.*?</strong><span>.*?</span>)(</a>)',lambda m:m[1]+f'<img src="{asset}{next(images)}" alt="" loading="lazy"><div class="signature-caption">'+m[2]+'</div><span class="signature-discover">'+('اكتشف الخط' if ar else 'Discover the line')+'</span>'+m[3],s)
+ icon_prefix="../" if ar else ""
+ s=re.sub(r'<link rel="icon"[^>]*>', f'<link rel="icon" type="image/svg+xml" href="{icon_prefix}favicon.svg?v=2">', s)
  p.write_text(s)
