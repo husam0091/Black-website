@@ -398,3 +398,26 @@ html[dir=rtl] .service-editorial .service-tile h3{font-family:Tajawal,Arial,sans
 @media(max-width:899px){.signature-gallery{gap:12px}.signature-gallery a,.signature-gallery a+a{min-height:380px;padding:20px}.signature-gallery a:nth-child(2){margin-top:30px}.signature-gallery a:nth-child(3){margin-top:60px}.service-editorial .service-tile:nth-child(even){padding-inline-start:0}.service-image{height:140px}}
 @media(max-width:599px){.service-editorial .service-tile{grid-template-columns:90px minmax(0,1fr);gap:18px;padding:24px 0}.service-editorial .service-tile h3{font-size:24px;line-height:1.15}.service-editorial .service-tile p{font-size:15px;line-height:1.55}.service-image{height:130px}.signature-gallery{grid-template-columns:minmax(0,1fr);gap:18px}.signature-gallery a,.signature-gallery a+a,.signature-gallery a:nth-child(2),.signature-gallery a:nth-child(3){margin:0;min-height:360px;padding:28px}.signature-gallery strong{font-size:46px}.signature-discover{margin-top:20px}}
 @media(prefers-reduced-motion:reduce){.signature-gallery img,.service-image,.project-frame{transition:none;transform:none!important}}
+
+/* Grouped navigation actions and quiet cross-page motion. */
+.header-actions{display:flex;align-items:center;gap:18px;margin-inline-start:auto;flex-shrink:0}
+body>header,.home header{justify-content:flex-start;gap:clamp(16px,2.5vw,48px)}
+body>header>nav{margin-inline-start:auto}
+.header-actions .header-call{display:inline-flex;align-items:center;min-height:44px;white-space:nowrap}
+.header-actions .header-quote{white-space:nowrap}
+.home .hero-conversion{opacity:0;visibility:hidden;pointer-events:none;transition:opacity .5s,visibility .5s}
+.home .hero-final .hero-conversion{opacity:1;visibility:visible;pointer-events:auto;inset-inline-start:50%;transform:translateX(-50%)}
+html[dir=rtl] .home .hero-final .hero-conversion{transform:translateX(50%)}
+.button,.menu-toggle,.photo-link,.header-quote{transition:transform .18s,background .25s,box-shadow .25s}
+.button:active,.menu-toggle:active,.header-quote:active{transform:scale(.96)}
+header nav a:active{opacity:.65}
+@view-transition{navigation:auto}
+::view-transition-old(root){animation:page-out .2s ease both}
+::view-transition-new(root){animation:page-in .3s ease both}
+@keyframes page-out{to{opacity:0;transform:translateY(-5px)}}
+@keyframes page-in{from{opacity:0;transform:translateY(7px)}to{opacity:1;transform:none}}
+@media(max-width:1100px){.header-actions .header-call{display:none}}
+@media(max-width:899px){.header-actions{display:none}body>header,.home header{justify-content:space-between;gap:12px}body>header>nav{margin:0}}
+@media(max-width:599px){.home .hero-final .hero-conversion{inset-inline-start:50%;width:max-content;max-width:88%;transform:translateX(-50%)}html[dir=rtl] .home .hero-final .hero-conversion{transform:translateX(50%)}}
+@media(prefers-reduced-motion:reduce){::view-transition-old(root),::view-transition-new(root){animation:none}.button:active,.menu-toggle:active,.header-quote:active{transform:none}.home .hero-conversion{transition:none}}
+@media(prefers-reduced-motion:no-preference){html.page-leaving main,html.page-leaving body>.cta,html.page-leaving footer{opacity:0;transition:opacity .16s ease}html:not(.page-leaving) main{animation:page-in .3s ease both}}
