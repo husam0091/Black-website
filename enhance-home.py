@@ -105,3 +105,4 @@ print('Restructured both homepages around Black C chapters.')
 import runpy
 runpy.run_path(str(Path(__file__).parent/'refine-site.py'))
 runpy.run_path(str(Path(__file__).parent/'conversion-site.py'))
+runpy.run_path(str(Path(__file__).parent/'refine-design.py'))
