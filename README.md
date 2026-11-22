@@ -1,6 +1,33 @@
-# Black C website
+<div align="center">
 
-Complete bilingual Black C construction website, with the current design, project pages, company profile and 300-frame scroll animation. Page code is included in `dist/`; binary assets are included as split archives in `site-assets/` and extracted automatically during the container build. No Node.js build or external CDN is required to deploy.
+# Black C — Corporate Website
+
+**Bilingual construction portfolio with immersive, scroll-driven storytelling**
+
+![English & Arabic](https://img.shields.io/badge/Language-English%20%2B%20Arabic-1F6376)
+![Deployment](https://img.shields.io/badge/Deployment-Podman%20%2B%20systemd-1F6376)
+![Web server](https://img.shields.io/badge/Web-Nginx-1F6376)
+
+[Overview](#overview) · [Deployment](#ubuntu--podman-service) · [Editing](#editing) · [Validation](#validation)
+
+</div>
+
+---
+
+## Overview
+
+Black C is a responsive English/Arabic construction company website featuring a company profile, dedicated project pages, and a cinematic **300-frame scroll-controlled sequence**.
+
+The site is designed for **self-hosted, reproducible deployment**. Page code is included in `dist/`; binary assets are shipped in split archives under `site-assets/` and extracted during the container build. No Node.js build or external CDN is required for serving the published site.
+
+### Highlights
+
+- **Bilingual experience:** English and Arabic pages, with localized site content.
+- **Immersive presentation:** scroll-driven visual storytelling for the homepage.
+- **Operational simplicity:** rootless Podman, systemd/Quadlet integration, and deploy/smoke-test scripts.
+- **Production-minded hosting:** Nginx container with an unprivileged runtime, read-only filesystem, and external HTTPS proxy support.
+
+---
 
 ## Ubuntu + Podman service
 
